@@ -30,15 +30,19 @@
 
 ###
 # Helpers
+
 ###
+
+# Turn this on if you want to make your url's prettier, without the .html
+activate :directory_indexes
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+  activate :livereload
+end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -48,9 +52,7 @@
 # end
 
 set :css_dir, 'css'
-
 set :js_dir, 'js'
-
 set :images_dir, 'img'
 
 # Build-specific configuration
@@ -74,12 +76,19 @@ end
 aws_config = YAML::load(File.open('aws.yml'))
 
 activate :s3_sync do |s3_sync|
-  s3_sync.bucket                = aws_config['s3_bucket']
-  s3_sync.region                = aws_config['aws_region']
-  s3_sync.aws_access_key_id     = aws_config['access_key_id']
-  s3_sync.aws_secret_access_key = aws_config['secret_access_key']
-  s3_sync.delete                = true
-  s3_sync.after_build           = false
+  s3_sync.bucket                     = aws_config['s3_bucket']
+  s3_sync.region                     = aws_config['aws_region']
+  s3_sync.aws_access_key_id          = aws_config['access_key_id']
+  s3_sync.aws_secret_access_key      = aws_config['secret_access_key']
+  s3_sync.delete                     = true
+  s3_sync.after_build                = false
+  s3_sync.prefer_gzip                = true
+  s3_sync.path_style                 = true
+  s3_sync.reduced_redundancy_storage = false
+  s3_sync.acl                        = 'public-read'
+  s3_sync.encryption                 = false
+  s3_sync.prefix                     = ''
+  s3_sync.version_bucket             = false
 end
 
 activate :cloudfront do |cf|

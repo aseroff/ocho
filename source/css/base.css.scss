@@ -1,0 +1,14 @@
+@import "normalize";
+@import "main";
+
+$primary: white;
+$secondaryr: red;
+$secondaryb: black;
+
+body {
+	background-color: $secondaryr;
+}
+
+nav .table {
+	background-color: #000000;
+}
