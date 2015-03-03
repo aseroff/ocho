@@ -1,15 +1,23 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+/* TEAM */
+                            
+	Developer: Andrew Seroff
+	Site: ocho.seroff.co
+	Twitter: @aseroff
 
-    <name> -- <role> -- <twitter>
+/* THANKS */
 
-# THANKS
+    Emily Salvaterra
+    Ian McEachern
+    Jonathan Malta-Weingard
 
-    <name>
+                            
+/* SITE */
 
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr
+	Went live: 2015/02/27
+	Last update: 2015/02/28                  
+	Standards: HTML5, CSS3    
+	Components: Modernizr
+	Software: Middleman
