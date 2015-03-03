@@ -1,12 +1,18 @@
+/*
 @import "normalize";
 @import "main";
+*/
 
-$primary: white;
+$bodybg: #1e5a1c;
 $secondaryr: red;
 $secondaryb: black;
 
 body {
-	background-color: green;
+	background-color: #1e5a1c;
+}
+
+div nav {
+	background-color: #1e5a1c;
 }
 
 nav .table {

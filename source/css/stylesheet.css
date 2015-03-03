@@ -1,0 +1,60 @@
+/* Content Style */
+
+body {
+	font-family: Garamond,serif;
+	background-color: #79060b;
+	padding:0px;
+}
+
+h1 {
+	margin: 0px;
+	padding: 20px;
+	font-size: 48px;
+}
+
+h2 {
+	margin: 0px;
+	padding: 20px;
+	font-size: 36px;	
+}
+
+p {
+	padding:10px;
+	margin-bottom: 15px;
+	font-size: 28px;
+}
+
+a {
+    color: #79060b;
+    text-decoration: none;	
+}
+
+li {
+	font-size: 20px;
+	padding-left: 60px;
+}
+
+.container {
+	background-color: #f0f4cd;
+	margin: 0px;
+}
+
+/* Navigation style */
+
+.nav {
+	background-color: #1e5a1c;
+	font-family: Helvetica;
+	margin: 0px;
+	font-size: 32px;
+}
+
+.nav td {
+	text-align: center;
+	vertical-align: center;
+	width: 200px;
+	padding:0px;
+}
+
+.nav img {
+	vertical-align: bottom;
+}

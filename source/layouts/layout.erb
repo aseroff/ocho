@@ -9,7 +9,7 @@
         <title><%= current_page.data.title || "Ocho"%></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/base">
+        <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body>
@@ -19,7 +19,7 @@
 
 <%= partial "navbar" %>
 
-<div class="container" style='padding:100px;background-color:tan;'>
+<div class="container">
         <%= yield %>
 </div>
 
