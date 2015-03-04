@@ -18,6 +18,10 @@ h2 {
 	font-size: 36px;	
 }
 
+h3 {
+	font-size: 28px;
+}
+
 p {
 	padding:10px;
 	margin-bottom: 15px;
@@ -48,11 +52,16 @@ li {
 	font-size: 32px;
 }
 
+.nav a {
+	color: #f0f4cd;
+}
+
 .nav td {
 	text-align: center;
 	vertical-align: center;
 	width: 200px;
-	padding:0px;
+	padding: 0px;
+	color: #f0f4cd;
 }
 
 .nav img {
