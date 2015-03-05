@@ -1,20 +1,79 @@
-/*
+/* 
+
 @import "normalize";
 @import "main";
-*/
 
-$bodybg: #1e5a1c;
-$secondaryr: red;
-$secondaryb: black;
+$r: #1e5a1c;
+$g: #79060b;
+$t: #f0f4cd; */
+
+/* Content Style */
 
 body {
-	background-color: #1e5a1c;
+	font-family: Garamond,serif;
+	background-color: #79060b;
+	padding: 0px;
 }
 
-div nav {
-	background-color: #1e5a1c;
+h1 {
+	margin: 0px;
+	margin-bottom: 20px;
+	font-size: 48px;
 }
 
-nav .table {
-	background-color: #000000;
+h2 {
+	margin: 0px;
+	padding: 20px;
+	font-size: 36px;	
 }
+
+h3 {
+	font-size: 24px;
+}
+
+p {
+	padding: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+a {
+    color: #79060b;
+    text-decoration: none;	
+}
+
+li {
+	font-size: 20px;
+	padding-left: 60px;
+}
+
+.container {
+	background-color: #f0f4cd;
+	margin: 0px;
+}
+
+/* Navigation style */
+
+.nav {
+	background-color: #1e5a1c;
+	font-family: Helvetica;
+	margin: 0px;
+	font-size: 32px;
+}
+
+.nav a {
+	color: #f0f4cd;
+}
+
+.nav td {
+	text-align: center;
+	vertical-align: center;
+	width: 200px;
+	padding: 0px;
+	color: #f0f4cd;
+}
+
+.nav img {
+	vertical-align: bottom;
+}
+
