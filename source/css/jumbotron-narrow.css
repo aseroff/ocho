@@ -17,12 +17,17 @@ body a {
   color:#79060b;
 }
 
+.yield li {
+	margin-top: 10px;
+	list-style-type: square;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
 .footer {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* Custom page header */
@@ -40,6 +45,60 @@ body a {
 .header li a:hover {
 	background-color: #f0f4cd;
 	color: #79060b;
+}
+
+.deck li {
+	list-style-type: none;
+	font-family: courier;
+	padding:0px;
+	margin: 0px;
+	font-size: 12px;
+	line-height: 1.1em;
+
+}
+
+.deck td {
+	width:50%;
+	padding: 10px;
+	vertical-align:top;
+}
+
+.deck th {
+	font-family:Garamond;
+	font-size: 24px;
+	padding:10px;
+	text-align:center;
+}
+
+.values table {
+	text-align:center;
+	background-color: #e1c78a;
+	border: 1px solid #a57b16;
+	padding: 25px;
+	margin: 5px;
+}
+
+.values tr:nth-child(odd) {
+	background-color: #f0f4cd;
+}
+
+.values td {
+	padding: 4px;
+	border-left: 1px solid #a57b16;
+	border-right: 1px solid #a57b16;
+}
+
+.values th {
+	text-align: center;
+	padding: 5px 0 5px 0;
+	border-left: 1px solid #a57b16;
+	border-right: 1px solid #a57b16;
+	border-bottom: 1px solid #a57b16;
+}
+
+.breadcrumbs {
+	text-align:center;
+	font-size:18px;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -64,26 +123,6 @@ body a {
   padding: 20px;
   background-color: #f0f4cd;
   border: 2px solid #79060b;
-}
-
-.yield li {
-	padding:15px;
-}
-
-.deck td {
-	width:50%;
-	padding: 10px;
-}
-
-.deck li {
-	list-style-type: none;
-	font-family: courier;
-	padding:0px;
-	font-size: 12px;
-	line-height: 1.1em;
-}
-
-.breadcrumbs {
 }
 
 @media (min-width: 768px) {
