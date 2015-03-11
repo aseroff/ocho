@@ -15,8 +15,8 @@
                             
 /* SITE */
 
-	Went live: 2015/02/27
-	Last update: 2015/03/04                  
+	Went live: 2015-02-27
+	Last update: 2015-03-10                  
 	Standards: HTML5, CSS3    
-	Components: Modernizr
+	Components: Bootstrap [Jumbotron], Modernizr
 	Software: Middleman
