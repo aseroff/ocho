@@ -106,6 +106,7 @@ body a {
 .breadcrumbs {
 	text-align:center;
 	font-size:18px;
+  padding-top:30px;
 }
 
 /* Make the masthead heading the same height as the navigation */
