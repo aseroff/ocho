@@ -23,6 +23,11 @@ body {
     line-height: 1.4;
 }
 
+.info {
+  border-bottom: 1px dashed #999;
+  text-decoration: none; 
+}
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate.

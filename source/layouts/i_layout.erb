@@ -25,11 +25,11 @@
 
   <body>
 
-<%= partial "navbar" %>
+    <%= partial "navbar" %>
 
-      <div class="jumbotron">
-<%= yield %>
-      </div>
+    <div class="jumbotron">
+      <%= yield %>
+    </div>
 
 <!--TODO:
       <div class="row marketing">
@@ -53,5 +53,8 @@
 -->
 	  
     </div>
+
+    <%= partial "analytics" %>
+
   </body>
 </html>

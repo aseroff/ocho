@@ -72,13 +72,9 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-aws_config = YAML::load(File.open('aws.yml'))
-
 activate :s3_sync do |s3_sync|
-  s3_sync.bucket                     = aws_config['s3_bucket']
-  s3_sync.region                     = aws_config['aws_region']
-  s3_sync.aws_access_key_id          = aws_config['access_key_id']
-  s3_sync.aws_secret_access_key      = aws_config['secret_access_key']
+  s3_sync.bucket                     = 'ocho.seroff.co'
+  s3_sync.region                     = 'us-west-1'
   s3_sync.delete                     = true
   s3_sync.after_build                = false
   s3_sync.prefer_gzip                = true
@@ -88,12 +84,4 @@ activate :s3_sync do |s3_sync|
   s3_sync.encryption                 = false
   s3_sync.prefix                     = ''
   s3_sync.version_bucket             = false
-end
-
-activate :cloudfront do |cf|
-  cf.access_key_id              = aws_config['access_key_id']
-  cf.secret_access_key          = aws_config['secret_access_key']
-  cf.distribution_id            = aws_config['cloud_front_dist_id']
-  cf.filter                     = /(.html|.xml)/
-  cf.after_build                = false
 end
