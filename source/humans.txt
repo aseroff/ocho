@@ -7,7 +7,7 @@
 	Site: ocho.seroff.co
 	Twitter: @aseroff
 
-/* THANKS */
+/* THANKS, PLAYTESTERS */
 
     Emily Salvaterra
     Ian McEachern
@@ -16,7 +16,7 @@
 /* SITE */
 
 	Went live: 2015-02-27
-	Last update: 2015-06-24                
+	Last update: 2017-01-04               
 	Standards: HTML5, CSS3  
 	Components: Bootstrap, Modernizr
 	Software: Middleman

@@ -4,7 +4,7 @@ If you're reading this, you've likely played the open-source, scalable and custo
 
 ## Fork it
 
-You know how it's done.
+You know how it's done: fork the project, make your changes, then create a pull request. I'll test out the changes and then add it to the site!
 
 ## Mail me
 
