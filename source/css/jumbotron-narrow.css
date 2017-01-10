@@ -62,6 +62,39 @@ hr.style-two {
 	color: #79060b;
 }
 
+.deck textarea {
+  font-family: courier;
+  background-color: #e1c78a;
+  width: calc(100% - 10px);
+  border: 1px solid #a57b16;
+  padding: 5px;
+  margin: 5px;
+  font-size: 12px;
+  line-height: 1.1em;
+}
+
+.rule textarea {
+  font-family: courier;
+  color: #000;
+  background-color: #e1c78a;
+  width: calc(90% - 10px);
+  border: 0;
+  padding: 5px;
+  margin: 5px;
+  font-size: 12px;
+  line-height: 1.1em; 
+}
+
+.submit {
+  font-family:Garamond;
+  background-color: #79060b;
+  font-weight:600;
+  color: #f0f4cd;;
+  padding:3px 15px 3px 15px;
+  border:0px;
+  border-radius: 0px;
+}
+
 .deck ul {
 	background-color: #e1c78a;
 	border: 1px solid #a57b16;
@@ -76,7 +109,6 @@ hr.style-two {
 	margin: 0px;
 	font-size: 12px;
 	line-height: 1.1em;
-
 }
 
 .deck td {
@@ -137,10 +169,17 @@ hr.style-two {
 }
 
 /* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #000;
-  border-top: 1px solid #79060b;
+footer {
+  font-family:Garamond;
+  color: #f0f4cd;
+  text-align:center
+}
+footer a {
+  color: #f0f4cd;
+}
+footer a:hover {
+  color: #79060b;
+  text-decoration:none;
 }
 
 /* Customize container */

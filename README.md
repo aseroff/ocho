@@ -12,6 +12,5 @@ Not that savvy? Get in touch and I can do the work for you.
 
 ## TODO
 
-* Add forms to submit decks and rules from the browser
 * Set up merchandise
 * Ocho Leagues?
