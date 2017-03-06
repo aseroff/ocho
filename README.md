@@ -2,6 +2,10 @@
 
 If you're reading this, you've likely played the open-source, scalable and customizable card game Ocho. Congratulations on making it this far! I now invite you to share your custom decks and rules with the world by adding them to this project!
 
+## Use the forms in the Decks and Rules sections
+
+Submissions get sent to me to be added.
+
 ## Fork it
 
 You know how it's done: fork the project, make your changes, then create a pull request. I'll test out the changes and then add it to the site!
