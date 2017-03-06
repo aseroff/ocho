@@ -4,15 +4,11 @@ If you're reading this, you've likely played the open-source, scalable and custo
 
 ## Use the forms in the Decks and Rules sections
 
-Submissions get sent to me to be added.
+Submissions get emailed to The Ocho Foundation for approval.
 
 ## Fork it
 
-You know how it's done: fork the project, make your changes, then create a pull request. I'll test out the changes and then add it to the site!
-
-## Mail me
-
-Not that savvy? Get in touch and I can do the work for you.
+You know how it's done: fork the project, make your changes, then create a pull request. We will test out the changes and then add it to the site!
 
 ## TODO
 
