@@ -66,11 +66,13 @@ hr.style-two {
   font-family: courier;
   background-color: #e1c78a;
   width: calc(100% - 10px);
+  height: 6.5em;
   border: 1px solid #a57b16;
   padding: 5px;
   margin: 5px;
   font-size: 12px;
   line-height: 1.1em;
+  resize:vertical;
 }
 
 .rule textarea {
@@ -78,11 +80,13 @@ hr.style-two {
   color: #000;
   background-color: #e1c78a;
   width: calc(90% - 10px);
+  height: 6.5em;
   border: 0;
   padding: 5px;
   margin: 5px;
   font-size: 12px;
   line-height: 1.1em; 
+  resize:vertical;
 }
 
 .submit {
