@@ -2,28 +2,6 @@
 title: The Ocho Foundation
 ---
 
-<style>
-.qr table {
-  border-width: 0;
-  border-style: none;
-  border-color: #0000ff;
-  border-collapse: collapse;
- }
-.qr td {
-   border-width: 0;
-   border-style: none;
-   border-color: #0000ff;
-   border-collapse: collapse;
-   padding: 0;
-   margin: 0;
-   width: 5px;
-   height: 5px;
- }
-.qr td.black { background-color: #000; }
-.qr td.white { background-color: #fff; }
-</style>
-
-
 <% methods = [
 	{coin: "BTC", address: '1CxwXqN6EVKRXGc5p2mkdigHLJcNEWovqz'}, 
 	{coin: "ETH", address: '0x1Bba248E280b69AD7E63892CA6cCBc561AffC708'}
@@ -32,33 +10,35 @@ title: The Ocho Foundation
 <h1>Donate to the Ocho Foundation</h1>
 <hr class="style-two">
 <section>
-  <h2><a id="mission">Mission</a></h2>
-  <p>To spread Ocho to every corner of the world, so that no man, woman or child ever has to face a day without Ocho again.</p>
+	<h2><a id="mission" href="#mission">Mission</a></h2>
+	<p>To spread Ocho to every corner of the world, so that no man, woman or child ever has to face a day without Ocho again.</p>
 </section>
 <section>
-  <h2><a id="donate">Donate</a></h2>
-  <div style="text-align:center">
-  <% methods.each do |c| %>
-    <h2><%= c[:coin] %></h2>
-    <table class="qr" align="center">
-      <% qr = RQRCode::QRCode.new(c[:address]) %>
-      <% qr.modules.each_index do |x| -%>
-      <tr>
-        <% qr.modules.each_index do |y| -%>
-          <% if qr.dark?(x,y) -%>
-          <td class="black"/>
-          <% else -%>
-          <td class="white"/>
-          <% end -%>
-        <% end -%>
-      </tr>
-      <% end -%>
-    </table>
-    <p><%= c[:address] %></p>
-  <% end %>
-  </div>
+	<h2><a id="donate" href="#donate">Donate</a></h2>
+	<div class="center">
+		<% methods.each do |c| %>
+		<div class="coin">
+			<h2><%= c[:coin] %></h2>
+			<table class="qr" align="center">
+			<% qr = RQRCode::QRCode.new(c[:address]) %>
+			<% qr.modules.each_index do |x| -%>
+				<tr>
+				<% qr.modules.each_index do |y| -%>
+					<% if qr.dark?(x,y) -%>
+					<td class="black"></td>
+					<% else -%>
+					<td class="white"></td>
+					<% end -%>
+				<% end -%>
+				</tr>
+			<% end -%>
+			</table>
+			<p><%= c[:address] %></p>
+		</div>
+		<% end %>
+	</div>
 </section>
 <section>
-  <h2><a id="mission">Information for Donors</a></h2>
-  <p>Your contribution goes towards offsetting the cost of hosting this website.</p>
+	<h2><a id="donorinformation" href="#donorinformation">Information for Donors</a></h2>
+	<p>Your contribution goes towards offsetting the cost of hosting this website.</p>
 </section>

@@ -68,3 +68,7 @@ li {
 	vertical-align: bottom;
 }
 
+a.tip {
+    border-bottom: 1px dashed #000;
+    text-decoration: none;
+}
