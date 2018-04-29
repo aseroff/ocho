@@ -9,9 +9,9 @@
 
 /* THANKS, PLAYTESTERS */
 
-    Emily Salvaterra
-    Ian McEachern
-    Jonathan Samuel
+	Emily Salvaterra
+	Ian McEachern
+	Jonathan Samuel
                             
 /* SITE */
 
