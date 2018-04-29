@@ -12,5 +12,7 @@ You know how it's done: fork the project, make your changes, then create a pull 
 
 ## TODO
 
-* Set up merchandise
-* Ocho Leagues?
+* Make tooltips HTML5 data attributes
+* Improve SEO
+* Set up merchandise (Stickers to put on the case of your Ocho decks!)
+* Ocho online, Ocho ladder/leagues?

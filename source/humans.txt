@@ -4,7 +4,7 @@
 /* TEAM */
                             
 	Developer: Andrew Seroff
-	Site: ocho.seroff.co
+	Site: https://ocho.seroff.co
 	Twitter: @aseroff
 
 /* THANKS, PLAYTESTERS */
@@ -16,7 +16,7 @@
 /* SITE */
 
 	Went live: 2015-02-27
-	Last update: 2017-09-19               
+	Last update: 2018-04-29               
 	Standards: HTML5, CSS3  
 	Components: Bootstrap, Modernizr
 	Software: Middleman
