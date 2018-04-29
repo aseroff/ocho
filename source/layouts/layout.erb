@@ -23,19 +23,24 @@
     <![endif]-->
   </head>
 
-<body>
+  <body>
 
-<%= partial "navbar" %>
+    <div class="container">
 
-<div class="yield" style="margin-bottom:20px">
-  <%= yield %>
-</div>
+      <%= partial "navbar" %>
 
-<footer>
-  <%= partial "footer" %>
-</footer>
+      <div class="yield" style="margin-bottom:20px">
+        <%= yield %>
+      </div>
 
-<%= partial "analytics" %>
+      <footer>
+        <%= partial "footer" %>
+      </footer>
 
-</body>
+    </div>
+
+    <%= partial "analytics" %>
+
+  </body>
+
 </html>

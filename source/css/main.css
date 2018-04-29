@@ -289,3 +289,7 @@ textarea {
         page-break-after: avoid;
     }
 }
+.tooltip {
+    border-bottom: 1px dashed #000;
+    text-decoration: none;
+}
