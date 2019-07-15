@@ -10,6 +10,14 @@ Submissions get emailed to The Ocho Foundation for approval.
 
 You know how it's done: fork the project, make your changes, then create a pull request. We will test out the changes and then add it to the site!
 
+## Deployment instructions:
+
+Deployments require the aws.yml credentials placed in the root directory.
+
+1. bundle
+1. middleman build
+1. middleman s3_sync
+
 ## TODO
 
 * Make tooltips HTML5 data attributes

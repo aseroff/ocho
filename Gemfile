@@ -2,6 +2,8 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
+ruby '2.6.3'
+
 gem "middleman"
 gem 'rqrcode'
 
