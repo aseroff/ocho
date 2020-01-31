@@ -21,18 +21,7 @@ title: The Ocho Foundation
 			<h2><%= c[:coin] %></h2>
 			<table class="qr" align="center">
 			<% qr = RQRCode::QRCode.new(c[:address]) %>
-			<% qr.modules.each_index do |x| -%>
-				<tr>
-				<% qr.modules.each_index do |y| -%>
-					<% if qr.dark?(x,y) -%>
-					<td class="black"></td>
-					<% else -%>
-					<td class="white"></td>
-					<% end -%>
-				<% end -%>
-				</tr>
-			<% end -%>
-			</table>
+			<%= qr.as_svg %>
 			<p><%= c[:address] %></p>
 		</div>
 		<% end %>
