@@ -22,9 +22,10 @@ Start Middleman server with `bundle exec middleman server`. Development server c
 
 Deployments require the aws.yml credentials placed in the root directory.
 
-1. bundle
-1. middleman build
-1. middleman s3_sync
+1. `bundle`
+1. `middleman build`
+1. `middleman s3_sync`
+1. invalidate cloudfront
 
 ## TODO
 
