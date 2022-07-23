@@ -2,7 +2,7 @@
 # The humans responsible & technology colophon
 
 /* TEAM */
-                            
+
 	Developer: Andrew Seroff
 	Site: https://ocho.seroff.co
 	Twitter: @aseroff
@@ -12,11 +12,11 @@
 	Emily Salvaterra
 	Ian McEachern
 	Jonathan Samuel
-                            
+
 /* SITE */
 
 	Went live: 2015-02-27
-	Last update: 2018-04-29               
+	Last update: 2022-07-23
 	Standards: HTML5, CSS3  
 	Components: Bootstrap, Modernizr
 	Software: Middleman
